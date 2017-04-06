@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --progress --inline --hot",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node build.js",
-  "deploy": "npm run build && git-directory-deploy --directory static/"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
